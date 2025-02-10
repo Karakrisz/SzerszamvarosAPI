@@ -7,6 +7,11 @@
     @apply text-black;
   }
 }
+@layer base {
+  .bg-red {
+    @apply bg-[#940000];
+  }
+}
 
 @layer components {
   .section-title {
@@ -29,3 +34,509 @@
     }
   }
 }
+
+.bg-red {
+  background-color: #940000;
+}
+.yellowSkew {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 192 90 / var(--tw-bg-opacity, 1));
+  transform: skewX(22deg);
+  left: -15%;
+}
+.workImgBlack{
+  width: 65%;
+  left: 30%;
+}
+.logoBlock li{
+  padding: 20px 0;
+}
+
+/*----Media CSS Start------*/
+@media  (min-width: 1600px) and (max-width: 1800px){
+    
+}
+@media  (min-width: 1500px) and (max-width: 1600px){
+  .yellowSkew {
+    left: -18%;
+  }
+  .workImgBlack {
+    width: 78%;
+    left: 18%;
+  }
+}
+@media  (min-width: 1400px) and (max-width: 1500px){
+  .workImgBlack {
+    width: 84%;
+    left: 12%;
+  }
+  .yellowSkew {
+    left: -19%;
+  }
+  .logoBlockInner {
+    padding: 8px 40px;
+  }
+}
+@media  (min-width: 1200px) and (max-width: 1400px){
+  .cta1 h1 {
+    font-size: 28pt;
+    line-height: 1.2;
+  }
+  .ctadiagonalwhite {
+    right: -40px;
+  }
+  .ctadiagonal {
+    right: -78px;
+  }
+
+  .ctablockyellow {
+    min-height: 500px;
+  }
+  .yellowSkew {
+    left: -24%;
+  }
+  .workImgBlack {
+    width: 83%;
+    left: 15%;
+  }
+  .ctayellowblkr {
+    padding: 85px 40px;
+  }
+
+  .logoBlockInner {
+    padding: 40px;
+  }
+}
+@media  (min-width: 991px) and (max-width: 1200px){
+  .cta1 {
+    margin: 0 18px;
+  }
+  .cta1 h1 {
+    font-size: 28pt;
+    line-height: 1.2;
+    padding-right: 45px;
+  }
+  .cta1 p {
+    padding-right: 45px;
+  }
+  .ctadiagonal {
+    right: -78px;
+  }
+
+  .ctablockyellow {
+    min-height: 500px;
+  }
+  .yellowSkew {
+    left: -24%;
+  }
+  .workImgBlack {
+    width: 96%;
+    left: 4%;
+  }
+  .ctayellowblkr {
+    padding: 40px 40px;
+  }
+
+  .logoBlockInner {
+    padding: 40px;
+  }
+}
+@media  (min-width: 769px) and (max-width: 991px) {
+  .cta1 {
+    margin: 0 18px;
+  }
+  .cta1 h1 {
+    font-size: 26pt;
+    line-height: 1.2;
+    padding-right: 45px;
+  }
+  .cta1 p {
+    padding-right: 140px;
+  }
+  .ctadiagonal {
+    right: -40px;
+    width: 40%;
+  }
+  .ctablue {
+    padding: 45px 0px;
+  }
+  .ctadiagonalwhite {
+    right: -65px;
+  }
+
+  .ctablockyellow {
+    min-height: auto;
+  }
+  .ctaleftyellow {
+    width: 40%;
+  }
+  .ctarightyellow {
+    width: 60%;
+  }
+  .yellowSkew {
+    left: -24%;
+  }
+  .workImgBlack {
+    width: 100%;
+    left: 4%;
+    bottom: -48px;
+  }
+  .ctayellowblkr h2 {
+    font-size: 22pt;
+  }
+  .ctayellowblkr {
+    padding: 25px 10px;
+  }
+
+  .blockNews {
+    padding: 50px;
+  }
+  .blockNewsForm {
+    padding: 40px;
+  }
+
+  .logoBlockInner {
+    padding: 40px;
+  }
+  .bottomFooterLeft {
+    padding: 25px;
+  }
+  .bottomFooterLeftMenu {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+@media  (min-width: 640px) and (max-width: 768px){
+  .cta1 {
+    margin: 0 18px;
+  }
+  .cta1 h1 {
+    font-size: 26pt;
+    line-height: 1.2;
+    padding-right: 45px;
+  }
+  .cta1 p {
+    padding-right: 140px;
+  }
+  .ctadiagonal {
+    right: -40px;
+    width: 40%;
+  }
+  .ctablue {
+    padding: 45px 0px;
+  }
+  .ctadiagonalwhite {
+    right: -105px;
+  }
+
+  .ctablockyellow {
+    min-height: auto;
+  }
+  .ctaleftyellow {
+    width: 40%;
+  }
+  .ctarightyellow {
+    width: 60%;
+  }
+  .yellowSkew {
+    left: -24%;
+  }
+  .workImgBlack {
+    width: 100%;
+    left: 4%;
+    bottom: -84px;
+  }
+  .ctayellowblkr h2 {
+    font-size: 22pt;
+  }
+  .ctayellowblkr {
+    padding: 25px 10px;
+  }
+
+  .blockNews {
+    padding: 50px;
+  }
+  .blockNewsForm {
+    padding: 40px;
+    width: 100%;
+  }
+
+  .footerMain {
+    display: grid;
+  }
+  .menuPart1 {
+    width: 100%;
+  }
+  .logoBlock{
+    width: 100%;
+  }
+  .logoBlockInner {
+    padding: 40px;
+  }
+  .bottomFooterLeft {
+    padding: 25px;
+  }
+  .logoBlockInner ul li {
+    display: inline-block;
+    padding: 0 18px;
+  }
+  .bottomFooterLeftMenu {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+@media  (min-width: 500px) and (max-width: 640px){
+  .cta1 {
+    margin: 0 18px;
+  }
+  .cta1 h1 {
+    font-size: 26pt;
+    line-height: 1.2;
+    padding-right: 45px;
+  }
+  .cta1 p {
+    padding-right: 140px;
+  }
+  .ctadiagonal {
+    right: -40px;
+    width: 40%;
+  }
+  .ctablue {
+    padding: 45px 0px;
+  }
+  .ctadiagonalwhite {
+    right: -105px;
+  }
+
+  .ctablockyellow {
+    min-height: auto;
+  }
+  .ctaleftyellow {
+    width: 40%;
+  }
+  .ctarightyellow {
+    width: 60%;
+  }
+  .yellowSkew {
+    left: -44%;
+  }
+  .workImgBlack {
+    width: 100%;
+    left: 4%;
+    bottom: -84px;
+    display: none;
+  }
+  .ctayellowblkr h2 {
+    font-size: 22pt;
+  }
+  .ctayellowblkr {
+    padding: 25px 10px;
+  }
+
+  .blockNews {
+    padding: 50px;
+  }
+  .blockNewsForm {
+    padding: 40px;
+    width: 100%;
+  }
+
+  .footerMain {
+    display: grid;
+  }
+  .menuPart1 {
+    width: 100%;
+  }
+  .logoBlock{
+    width: 100%;
+  }
+  .logoBlockInner {
+    padding: 20px;
+  }
+  .bottomFooterLeft {
+    padding: 12px;
+  }
+  .logoBlockInner ul li {
+    display: inline-block;
+    padding: 0 11px;
+  }
+  .bottomFooterLeftMenu {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+@media  (min-width: 400px) and (max-width: 500px){
+  .cta1 {
+    margin: 0 18px;
+  }
+  .cta1 h1 {
+    font-size: 26pt;
+    line-height: 1.2;
+    padding-right: 45px;
+  }
+  .cta1 p {
+    padding-right: 140px;
+  }
+  .cta1 button {
+    background: #000;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+  }
+  .ctadiagonal {
+    right: -40px;
+    width: 40%;
+  }
+  .ctablue {
+    padding: 45px 0px;
+  }
+  .ctadiagonalwhite {
+    right: -130px;
+  }
+
+  .ctablockyellow {
+    min-height: auto;
+  }
+  .ctaleftyellow {
+    width: 40%;
+  }
+  .ctarightyellow {
+    width: 60%;
+  }
+  .yellowSkew {
+    left: -58%;
+  }
+  .workImgBlack {
+    width: 100%;
+    left: 4%;
+    bottom: -84px;
+    display: none;
+  }
+  .ctayellowblkr h2 {
+    font-size: 22pt;
+  }
+  .ctayellowblkr {
+    padding: 25px 10px;
+  }
+
+  .blockNews {
+    padding: 22px;
+  }
+  .blockNewsForm {
+    padding: 40px;
+    width: 100%;
+  }
+
+  .footerMain {
+    display: grid;
+  }
+  .menuPart1 {
+    width: 100%;
+  }
+  .logoBlock{
+    width: 100%;
+  }
+  .logoBlockInner {
+    padding: 20px;
+  }
+  .bottomFooterLeft {
+    padding: 12px;
+  }
+  .logoBlockInner ul li {
+    display: inline-block;
+    padding: 0 11px;
+  }
+  .bottomFooterLeftMenu {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 0 15px;
+  }
+}
+@media  (min-width: 300px) and (max-width: 400px){
+  .cta1 {
+    margin: 0 18px;
+  }
+  .cta1 h1 {
+    font-size: 26pt;
+    line-height: 1.2;
+    padding-right: 45px;
+  }
+  .cta1 p {
+    padding-right: 140px;
+  }
+  .cta1 button {
+    background: #000;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+  }
+  .ctadiagonal {
+    right: -40px;
+    width: 40%;
+  }
+  .ctablue {
+    padding: 45px 0px;
+  }
+  .ctadiagonalwhite {
+    right: -130px;
+  }
+
+  .ctablockyellow {
+    min-height: auto;
+  }
+  .ctaleftyellow {
+    width: 40%;
+  }
+  .ctarightyellow {
+    width: 60%;
+  }
+  .yellowSkew {
+    left: -58%;
+  }
+  .workImgBlack {
+    width: 100%;
+    left: 4%;
+    bottom: -84px;
+    display: none;
+  }
+  .ctayellowblkr h2 {
+    font-size: 22pt;
+  }
+  .ctayellowblkr {
+    padding: 25px 10px;
+  }
+
+  .blockNews {
+    padding: 22px;
+  }
+  .blockNewsForm {
+    padding: 40px;
+    width: 100%;
+  }
+
+  .footerMain {
+    display: grid;
+  }
+  .menuPart1 {
+    width: 100%;
+  }
+  .logoBlock{
+    width: 100%;
+  }
+  .logoBlockInner {
+    padding: 20px;
+  }
+  .bottomFooterLeft {
+    padding: 12px;
+  }
+  .logoBlockInner ul li {
+    display: inline-block;
+    padding: 0 11px;
+  }
+  .bottomFooterLeftMenu {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 0 15px;
+  }
+}
+/*----Media CSS End------*/

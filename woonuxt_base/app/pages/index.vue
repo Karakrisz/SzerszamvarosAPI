@@ -2,6 +2,9 @@
   <main>
     <Hero />
     <Discounts />
+    <CallToAction />
+    <CallToAction2 />
+    <NewsLetterBlock />
   </main>
 </template>
 

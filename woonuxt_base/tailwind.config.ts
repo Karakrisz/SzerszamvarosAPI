@@ -18,6 +18,7 @@ export default {
         'secondary-dark': '#423a38',
         'disabled': '#afafaf',
         'dark': '#1D1E19',
+        'bg-red': '#000000',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
