@@ -42,7 +42,7 @@ const handleSubmit = () => {
     </span>
     <button
       type="submit"
-      class="absolute z-10 right-3 top-1/2 -translate-y-1/2 transform transition"
+      class="absolute z-10 right-3 top-1/2 -translate-y-1/2 transform transition flex"
       :class="{ 'cursor-pointer': searchQuery?.length >= 2, 'cursor-not-allowed': searchQuery?.length < 2 }"
     >
       <Icon 

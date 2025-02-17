@@ -16,7 +16,7 @@ const links = [
         <NuxtLink to="/" class="shrink-0">
           <NuxtImg src="/img/header/logo.png" class="header-logo w-[250px]" />
         </NuxtLink>
-        <div class="space-x-8 lg:flex items-center hidden text-white">
+        <div class="space-x-3 lg:flex items-center hidden text-white">
           <NuxtImg src="/img/header/phone.svg" class="header-phone w-[20px]" /><span class="left-5">+36 30 636 63 62</span>
           <span>|</span>
           <NuxtImg src="/img/header/EnvelopeSimple.svg" class="header-mail w-[20px]" /><span class="left-5">csutakk75@gmail.com</span>
@@ -54,7 +54,7 @@ const links = [
         </div>
 
         <!-- Right side: Icons -->
-        <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-4">
           <SignInLink class="rounded-full p-2 shadow-[0_0_5px_4px_#e9e9e9]" />
           <!-- Heart icon placeholder -->
            
