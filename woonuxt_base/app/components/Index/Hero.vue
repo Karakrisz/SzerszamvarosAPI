@@ -48,7 +48,7 @@ onMounted(() => {
                 <div class="absolute inset-0 bg-black/40">
                     <div class="container mx-auto px-4 h-full flex items-center">
                         <div class="max-w-2xl text-white">
-                            <h2 class="text-5xl font-bold mb-4">{{ slide.title }}</h2>
+                            <h1 class="text-5xl font-bold mb-4">{{ slide.title }}</h1>
                             <p class="text-xl mb-8">{{ slide.description }}</p>
                             <button class="bg-white text-black px-6 py-3 rounded hover:bg-gray-100 transition-colors">
                                 {{ slide.buttonText }}
